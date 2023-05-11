@@ -1,8 +1,0 @@
-version: "3"
-services:
-  birthday-reminder:
-    build:
-      context: .
-    environment:
-      - .env.secret
-    restart: always
